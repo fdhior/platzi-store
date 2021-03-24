@@ -52,7 +52,7 @@ Sentry.init({
     AngularFireStorageModule
   ],
   providers: [
-    ProductsService
+    ProductsService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptor,
